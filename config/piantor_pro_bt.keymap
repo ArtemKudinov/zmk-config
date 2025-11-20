@@ -30,7 +30,7 @@
 &kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp APOS  &kp GRAVE  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp LEFT_BRACKET  &kp CAPSLOCK  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET  &kp SPACE  &mo 1  &kp TAB  &kp BACKSPACE  &mo 2  &kp RETURN
             >;
 
-            label = "win base";
+            label = "base";
         };
 
         layer_1 {
@@ -46,7 +46,7 @@
 &trans  &trans  &trans  &trans  &kp LG(SPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &kp INSERT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &kp DEL  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &trans  &trans  &mo 3  &trans
             >;
 
-            label = "win nav";
+            label = "nav";
         };
 
         layer_2 {
@@ -62,7 +62,7 @@
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans  &trans  &kp BACKSLASH  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 3  &trans  &trans  &trans  &trans
             >;
 
-            label = "win num";
+            label = "num&sym";
         };
 
         layer_3 {
@@ -71,37 +71,15 @@
 &sys_reset  &kp F12  &kp F7  &kp F8  &kp F9  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader  &kp F10  &kp F1  &kp F2  &kp F3  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &bt BT_CLR  &studio_unlock  &kp F11  &kp F4  &kp F5  &kp F6  &kp PRINTSCREEN  &kp K_MUTE  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &to 4  &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "win fn";
+            label = "function";
         };
 
         layer_4 {
-            display-name = "mac base";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 5  &trans  &trans  &mo 6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "mac base";
-        };
-
-        layer_5 {
-            display-name = "mac nav";
-            bindings = <
-&trans  &trans  &trans  &trans  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans  &kp INSERT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &kp DEL  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &trans  &trans  &mo 7  &trans
-            >;
-        };
-
-        layer_6 {
-            display-name = "mac num";
-            bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &trans  &kp BACKSLASH  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 7  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            display-name = "mac fn";
-            bindings = <
-&sys_reset  &kp F12  &kp F7  &kp F8  &kp F9  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader  &kp F10  &kp F1  &kp F2  &kp F3  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &bt BT_CLR  &studio_unlock  &kp F11  &kp F4  &kp F5  &kp F6  &kp LA(LG(N5))  &kp K_MUTE  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &to 0  &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
+            label = "gaming";
         };
     };
 };
